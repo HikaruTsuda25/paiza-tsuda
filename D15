@@ -1,0 +1,9 @@
+<?php
+
+list($A, $B) = array_map('intval', explode(" ", trim(fgets(STDIN))));
+
+$D = $A - $B;
+$P = $A * $B;
+
+echo $D . " " . $P;
+?>
