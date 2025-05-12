@@ -1,0 +1,9 @@
+<?php
+    // 自分の得意な言語で
+    // Let's チャレンジ！！
+    $input = trim(fgets(STDIN));
+    list($s1, $s2) = explode(" ", $input);
+
+    echo $s1 . "\n";
+    echo $s2 . "\n";
+?>

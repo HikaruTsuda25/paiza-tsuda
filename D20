@@ -1,0 +1,11 @@
+<?php
+    // 自分の得意な言語で
+    // Let's チャレンジ！！
+list($A, $B, $C)= array_map('intval',explode(" ", trim(fgets(STDIN))));
+
+if ($A * $B <= $C){
+    echo "YES";
+} else {
+    echo "NO";
+}
+?>

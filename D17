@@ -1,0 +1,12 @@
+<?php
+    // 自分の得意な言語で
+    // Let's チャレンジ！！
+$n = 0;
+list($a, $b, $c) = array_map('intval', explode(" ", trim(fgets(STDIN))));
+
+$n += $a;
+$n -= $b;
+$n += $c;
+
+echo $n;
+?>

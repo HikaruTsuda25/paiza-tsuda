@@ -1,0 +1,10 @@
+<?php
+    // 自分の得意な言語で
+    // Let's チャレンジ！！
+    $N = 0;
+list($A, $B, $C) = array_map('intval', explode(" ", trim(fgets(STDIN))));
+$N +=$A;
+$N *=$B;
+$N %=$C;
+    echo $N;
+?>
